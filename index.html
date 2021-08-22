@@ -5,96 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mantento:Personal</title>
+    <script src="https://kit.fontawesome.com/28299ad137.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <link href="mantento.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!-- El header que incluye el titulo del sitio y tambien el menu de navegacion-->
-    <header id="head">
-      <link href="mantento.css" rel="stylesheet" type="text/css" />
-      <h1>Mantento</h1>
-      <h2>Comprometidos con la gestion de mantenimiento</h2>
-      <!-- menu-->
-      <nav>
-        <ul id="menu">
-          <li><a href="index.html">Principal</a></li>
-          <li><a href="mantento_servicio.html">Servicio</a></li>
-          <li><a href="mantento_planes.html">Planes</a></li>
-          <li><a href="mantento_conoce.html">Conoce nuestra plataforma</a></li>
-          <li>
-            <a href="mantento_contacto.html">Preguntas frecuentes y contacto</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="d-sm-block d-md-block" id="head">
+      <div class="px-3 py-2 bg-dark text-white">
+        
+        <div class="container">
+          <div
+            class="
+              d-flex
+              flex-wrap
+              align-items-center
+              justify-content-center justify-content-lg-start
+            "
+          >
+            <h1>Mantento</h1>            
+            <small>Comprometidos con la gestion de mantenimiento</small>
+          </div>
+          <div
+            class="
+              d-flex
+              flex-wrap
+              align-items-center
+              justify-content-center justify-content-lg-start
+            "
+          >
+            <ul class="nav  col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"">
+              <li><a class="nav-link text-secondary"" href="index.html"><i class="fas fa-home"></i>Principal</a></li>
+              <li><a class="nav-link text-secondary" href="mantento_servicio.html"><i class="fas fa-hands"></i>Servicio</a></li>
+              <li><a class="nav-link text-secondary" href="mantento_planes.html"><i class="far fa-handshake"></i>Planes</a></li>
+              <li>
+                <a class="nav-link text-secondary" href="mantento_conoce.html"><i class="fas fa-hands"></i> Conoce nuestra plataforma</a>
+              </li>
+              <li>
+                <a class="nav-link text-secondary" href="mantento_contacto.html"
+                  ><i class="fas fa-question-circle"></i>Preguntas frecuentes y contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- A continuacion la presentacion del producto -->
-    <div id="main">
-      <h1>Mantento es tu nuevo partner en gestion de mantenimiento</h1>
-      <p id="main-p">
-        Con Mantento tendras al alcance de tu mano una herramienta que
-        alivianara el trabajo administrativo en cuanto al mantenimiento de tu
-        empresa, es por esto que te invitamos a saber y conocer mas de nosotros
-        en este sitioweb
-      </p>
-      <img
-        src="https://us.123rf.com/450wm/huhulin/huhulin1403/huhulin140300038/27360286-aislados-iconos-dashboard-web-negro-conjunto-de-fondo-blanco.jpg?ver=6"
-      />
+    <section id="first-section">
+    <div class="container col-xxl-8 px-4 py-5 " id="main">
+      <div  class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://us.123rf.com/450wm/huhulin/huhulin1403/huhulin140300038/27360286-aislados-iconos-dashboard-web-negro-conjunto-de-fondo-blanco.jpg?ver=6" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Mantento es tu nuevo partner en gestion de mantenimiento</h1>
+          <p class="lead" id="main-p">
+                Con Mantento tendras al alcance de tu mano una herramienta que
+                alivianara el trabajo administrativo en cuanto al mantenimiento de tu
+                empresa, es por esto que te invitamos a saber y conocer mas de nosotros
+                en este sitioweb
+          </p>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start" >
+          <button>aqui</button>
+        </div>
+        
+      </div>
     </div>
+  </section>
     <!-- En esta seccion se describen brevemente las secciones de la pagina: Servicios, Planes, conocimiento de la plataforma y faq y contactos  -->
-    <section class="desc-section">
-      <article class="desc-art">
-        <h2>Servicio</h2>
-        <p class="desc-p">
-          Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
-          mantenimiento en tu empresa...
-        </p>
-        <button>
-          <a href="#" class="boton_plan"
-            >Ver mas acerca de nuestro servicio...</a
-          >
-        </button>
-      </article>
-      <article class="desc-art">
-        <img src="" alt="" class="img-right" />
-      </article>
-      <article class="right">
-        <h2>Planes</h2>
-        <p class="desc-p">
-          Elige el plan a tu medida, puede comenzar con el inicial y escalar a
-          medida que crezca tu empresa
-        </p>
-        <button>
-          <a href="#" class="boton_plan">Conoce en detalle nuestros planes</a>
-        </button>
-      </article>
-      <article class="desc-art">
-        <img src="" alt="" class="main-img" />
-      </article>
-      <article class="desc-art">
-        <h2>Conoce nuestro producto</h2>
-        <p class="desc-p">
-          Puedes conocer nuestra plataforma de forma grafica y descriptiva, para
-          que comiences a apreciar los beneficios de esta.
-        </p>
-        <button><a href="#" class="boton_plan">Nuestro software</a></button>
-      </article>
-      <article class="desc-art">
-        <img src="" alt="" class="main-img" />
-      </article>
-      <article class="right">
-        <h2>FAQ y Contacto</h2>
-        <p class="desc-p">
-          Si tienes dudas puedes consultar las preguntas frecuentes que nos
-          hacen nuestros clientes, si estas no se encuentran puedes contactarnos
-          directamente a traves del formulario y nuestro equipo se pondrá en
-          contacto con usted.
-        </p>
-        <button>
-          <a href="#" class="boton_plan">contactate con nosotros</a>
-        </button>
-      </article>
-      <article class="desc-art">
-        <img src="" alt="" class="main-img" />
-      </article>
-    </section>
+    <div class="container-fluid d-none d-sm-none d-md-block">
+      <div class="row  ">
+        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
+          <h2>Servicio</h2>
+                <p class="desc-p">
+                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
+                mantenimiento en tu empresa...
+              </p>
+              <button>
+        </div>
+      </div>
+      <div class="row justify-content-end ">
+        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
+          <h2>Planes</h2>
+                <p class="desc-p">
+                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
+                mantenimiento en tu empresa...
+              </p>
+              <button>
+        </div>
+      </div>
+      <div class="row  ">
+        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
+          <h2>Plataforma</h2>
+                <p class="desc-p">
+                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
+                mantenimiento en tu empresa...
+              </p>
+              <button>
+        </div>
+      </div>
+      <div class="row justify-content-end ">
+        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
+            <h2>FAQ y Contacto</h2>
+                  <p class="desc-p">
+                  Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
+                  mantenimiento en tu empresa...
+                </p>
+                <button>
+          </div>
+        </div>
+            
+  </div>
+    
     <!-- El footer incluye el logo y algunos datos de contacto, por ahora un correo de consultas-->
     <footer>
       <p>
