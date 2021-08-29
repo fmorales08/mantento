@@ -1,0 +1,72 @@
+.divider {
+  height: 3rem;
+  opacity: 0;
+}
+.contenedor-resumen {
+  width: $ancho-total;
+  height: $alto-L;
+  border-radius: $border-rad;
+  box-shadow: $box-shadow;
+  border-color: $primary-color;
+  border: 3px;
+  background-color: $bg-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  vertical-align: middle;
+  opacity: 0.8;
+
+  .img-resumen {
+    display: block;
+    width: 400px;
+    margin: auto;
+    opacity: 1;
+  }
+  .resumen {
+    display: block;
+    background-color: $bg-color;
+    width: 600px;
+    margin: auto;
+    padding: $espaciado-doble;
+    border-radius: $border-rad;
+    border-color: $primary-color;
+    opacity: 1;
+  }
+}
+.features {
+  padding-top: 20px;
+  width: $ancho-total;
+  height: $alto-L;
+  border-radius: $border-rad;
+  box-shadow: $box-shadow;
+  border-color: $primary-color;
+  border: 3px;
+  background-color: $bg-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  vertical-align: middle;
+  opacity: 0.8;
+  padding-left: 40px;
+
+  .item-s {
+    box-shadow: $box-shadow;
+    transition: 0.5s;
+    width: $ancho-medio;
+    display: block;
+    text-align: center;
+    i {
+      padding-top: $espaciado-doble;
+      font-size: 40px;
+    }
+    h3 {
+      color: $primary-color;
+      opacity: 0.5;
+    }
+    h3:hover {
+      opacity: 1;
+    }
+
+    .item-s:hover {
+      box-shadow: 0 8px 20px 0;
+    }
+  }
+}
