@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="description" content="Mantento desarrolla plataformas digitales e integrales para la gestion y control del mantenimiento industrial">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mantento:Personal</title>
+    <title>Mantento, gestion de mantenimiento</title>
     <script src="https://kit.fontawesome.com/28299ad137.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -12,22 +13,8 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-      crossorigin="anonymous"
-    ></script>
-    <link href="css/mantento.css" rel="stylesheet" type="text/css" />
+  
+    <link href="./sass/estilo.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <!-- El header que incluye el titulo del sitio y tambien el menu de navegacion-->
@@ -62,14 +49,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li><a class="nav-link text-secondary"" href="index.html"><i class="fas fa-home"></i>Principal</a></li>
-              <li><a class="nav-link text-secondary" href="mantento_servicio.html"><i class="fas fa-hands"></i>Servicio</a></li>
-              <li><a class="nav-link text-secondary" href="mantento_planes.html"><i class="far fa-handshake"></i>Planes</a></li>
+              <li><a class="nav-link text-white"" href="index.html"><i class="fas fa-home"></i>Principal</a></li>
+              <li><a class="nav-link text-white" href="mantento_servicio.html"><i class="fas fa-hands"></i>Servicio</a></li>
+              <li><a class="nav-link text-white" href="mantento_planes.html"><i class="far fa-handshake"></i>Planes</a></li>
               <li>
-                <a class="nav-link text-secondary" href="mantento_conoce.html"><i class="fas fa-hands"></i> Conoce nuestra plataforma</a>
+                <a class="nav-link text-white" href="mantento_conoce.html"><i class="fas fa-hands"></i> Conoce nuestra plataforma</a>
               </li>
               <li>
-                <a class="nav-link text-secondary" href="mantento_contacto.html"
+                <a class="nav-link text-white" href="mantento_contacto.html"
                   ><i class="fas fa-question-circle"></i>Preguntas frecuentes y contacto</a
                 >
               </li>
@@ -85,7 +72,7 @@
     <div class="container col-xxl-8 px-4 py-5 " id="main">
       <div  class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="https://us.123rf.com/450wm/huhulin/huhulin1403/huhulin140300038/27360286-aislados-iconos-dashboard-web-negro-conjunto-de-fondo-blanco.jpg?ver=6" class="d-block mx-lg-auto img-fluid" width="700" height="500"
+          <img src="https://us.123rf.com/450wm/huhulin/huhulin1403/huhulin140300038/27360286-aislados-iconos-dashboard-web-negro-conjunto-de-fondo-blanco.jpg?ver=6" class="d-block mx-lg-auto img-fluid" width="700" height="500" alt="mantenimiento-integral"
           />
         </div>
         <div class="col-lg-6">
@@ -97,75 +84,122 @@
                 en este sitioweb
           </p>
         </div>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start" >
-          <button id="button">aqui</button>
-        </div>
         
       </div>
     </div>
   </section>
     <!-- En esta seccion se describen brevemente las secciones de la pagina: Servicios, Planes, conocimiento de la plataforma y faq y contactos  -->
-    <div class="container-fluid d-none d-sm-none d-md-block">
-      <div class="row  ">
-        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
-          <h2>Servicio</h2>
-                <p class="desc-p">
-                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
-                mantenimiento en tu empresa...
-              </p>
-              <button>
+    <section class="my-5">
+
+      
+      <h2 class=" font-weight-bold text-center my-5">Por que debemos crecer juntos?</h2>
+      
+      <p class="lead grey-text text-center w-responsive mx-auto mb-5">Tenemos muchos aspectos en los que crecer juntos, por eso deberias elegirnos como partners</p>    
+      
+      <div class="row">    
+      
+        <div class="col-lg-5 text-center text-lg-left">
+          <img class="img-fluid" src="./src/img/maintenance.JPG" alt="gestion-mantenimiento">
         </div>
-      </div>
-      <div class="row justify-content-end ">
-        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
-          <h2>Planes</h2>
-                <p class="desc-p">
-                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
-                mantenimiento en tu empresa...
-              </p>
-              <button>
+        
+        <div class="col-lg-7">          
+          <div class="row mb-3">    
+          
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>   
+          
+            <div class="col-xl-10 col-md-11 col-10">
+              <h3 class="font-weight-bold mb-3"><a href="./mantento_servicio.html">Nuestro servicio</a> </h3>
+              <p >Entregamos un servicio persooizado y muy cercano al cliente en todo momento</p>
+            </div>       
+          </div>          
+          <div class="row mb-3">         
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>    
+          
+            <div class="col-xl-10 col-md-11 col-10">
+              <h3 class="font-weight-bold mb-3"><a href="./mantento_planes.html">Planes</a></h3>
+              <p>Tenemos planes a tu medida, y tambien puedes contactarnos si no te acomodan los disponibles</p>
+            </div>    
+          </div>    
+        
+          <div class="row">         
+            <div class="col-1">
+              <i class="fas fa-share fa-lg indigo-text"></i>
+            </div>          
+            <div class="col-xl-10 col-md-11 col-10">
+              <h3 class="font-weight-bold mb-3"><a href="./mantento_conoce.html">Plataforma</a></h3>
+              <p >Revisa algunas ventanas de nuestras plataformas ya implementadas</p>
+            </div>   
+          </div>    
         </div>
-      </div>
-      <div class="row  ">
-        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
-          <h2>Plataforma</h2>
-                <p class="desc-p">
-                Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
-                mantenimiento en tu empresa...
-              </p>
-              <button>
-        </div>
-      </div>
-      <div class="row justify-content-end ">
-        <div class='col-md-9  p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg'>
-            <h2>FAQ y Contacto</h2>
-                  <p class="desc-p">
-                  Conoce nuestro, servicio lo que proponemos para mejorar la gestion de
-                  mantenimiento en tu empresa...
-                </p>
-                <button>
-          </div>
-        </div>
-            
-  </div>
+        
+      </div>    
+    </section>
+  
     
     <!-- El footer incluye el logo y algunos datos de contacto, por ahora un correo de consultas-->
-    <footer class="d-flex flex-wrap justify-content-between " >
-      <div class="d-flex align-items-center"">
-        
-          <img
-            src="https://www.mayugo.net/admin/images/prods/icono-mantenimiento.png"
-            align="left"
-            width="100"
-            height="100"
-          />
-          <p class="text-black">
-          Contactanos a contacto@mantento.cl o a traves del formulario de contacto
-        </p>
-      </div>
-    </footer>
+    <div class="container-fluid pb-0 mb-0 justify-content-center text-light footer">
+      <footer>
+          <div class="row my-5 justify-content-center py-5">
+              <div class="col-11">
+                  <div class="row ">
+                      <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                          <h3 class="text-muted mb-md-0 mb-5 bold-text">Mantento</h3>
+                      </div>
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                          <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li><a class="nav-link text-white"" href="index.html"><i class="fas fa-home"></i>Principal</a></li>
+                            <li><a class="nav-link text-white" href="mantento_servicio.html"><i class="fas fa-hands"></i>Servicio</a></li>
+                            <li><a class="nav-link text-white" href="mantento_planes.html"><i class="far fa-handshake"></i>Planes</a></li>
+                            <li>
+                              <a class="nav-link text-white" href="mantento_conoce.html"><i class="fas fa-hands"></i> Conoce nuestra plataforma</a>
+                            </li>
+                            <li>
+                              <a class="nav-link text-white" href="mantento_contacto.html"
+                                ><i class="fas fa-question-circle"></i>Preguntas frecuentes y contacto</a
+                              >
+                            </li>
+                            </ul>
+                      </div>
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                          <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>Visitanos</b></h6>
+                          <p class="mb-1">General Mackenna 1590, Santiago de Chile</p>
+                          <p>Chile</p>
+                      </div>
+                  </div>
+                  <div class="row ">
+                      <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                          <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> Siguenos...</small>
+                      </div>
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+                          <h6 class="mt-55 mt-2 text-muted bold-text"><b>Contactanos</b></h6><small> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> contacto@mantento.cl</small>
+                      </div>                      
+                  </div>
+              </div>
+          </div>
+      </footer>
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
