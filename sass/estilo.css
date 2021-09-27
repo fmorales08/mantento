@@ -232,7 +232,7 @@ h2 {
   -webkit-transform: scale(1.02, 1.02);
   backface-visibility: hidden;
   will-change: transform;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.75);
 }
 .card:hover::after {
   opacity: 1;
@@ -251,13 +251,15 @@ footer {
   overflow: hidden;
   margin-top: 250px;
   background: #262626;
-  color: #627482 !important;
+  color: #627482;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 small {
-  font-size: calc( 12px + (15 - 12) * ((100vw - 360px) / (1600 - 360)) ) !important;
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
 }
 
 .bold-text {
@@ -265,7 +267,7 @@ small {
 }
 
 .mt-55 {
-  margin-top: calc( 50px + (60 - 50) * ((100vw - 360px) / (1600 - 360)) ) !important;
+  margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360)));
 }
 
 .social {
@@ -273,7 +275,16 @@ small {
 }
 
 .rights {
-  font-size: calc( 10px + (12 - 10) * ((100vw - 360px) / (1600 - 360)) ) !important;
+  font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360)));
 }
 
+.accordion {
+  width: 100%;
+}
+.white {
+  color: white;
+}
+label {
+  font-weight: 600;
+}
 /*# sourceMappingURL=estilo.css.map */
